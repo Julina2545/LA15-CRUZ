@@ -8,7 +8,7 @@ def say_hello(request):
 
 
 def say_hello(request):
-    return render(request,'hi.html', {'name': 'Lumabi Jayson T'})
+    return render(request,'hi.html', {'name': 'CRUZ JULIANA'})
 
 def blog_list(request):
     post = Post.objects.all()
